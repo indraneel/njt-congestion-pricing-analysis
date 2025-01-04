@@ -1342,3 +1342,48 @@ timestamp,station,destination,line,train_number,departure_time,status,track,car_
 2025-01-04 10:07:26,Maplewood,New York -SEC,M&E,6930,4:54 PM,,2,0,0,0,0,0
 2025-01-04 10:07:26,Maplewood,New York -SEC,M&E,6932,5:54 PM,,2,0,0,0,0,0
 2025-01-04 10:07:26,Maplewood,New York -SEC,M&E,6934,6:54 PM,,2,0,0,0,0,0
+2025-01-04 10:11:49,Secaucus Upper,New York,NJCL,7620,10:18 AM,,2,3,0,0,0,3
+2025-01-04 10:11:49,Secaucus Upper,New York,NEC,7820,10:23 AM,,2,3,0,0,0,7
+2025-01-04 10:11:49,Secaucus Upper,New York,M&E,6916,10:25 AM,,2,3,0,0,0,7
+2025-01-04 10:11:49,Secaucus Upper,New York,NJCL,7220,10:29 AM,,2,3,0,0,0,3
+2025-01-04 10:11:49,Secaucus Upper,New York,NEC,7822,10:31 AM,,2,3,0,0,0,7
+2025-01-04 10:11:49,Secaucus Upper,New York,NJCL,7624,11:15 AM,,2,0,0,0,0,0
+2025-01-04 10:11:49,Secaucus Upper,New York,NEC,7824,11:20 AM,,2,3,0,0,0,6
+2025-01-04 10:11:49,Secaucus Upper,New York,M&E,6918,11:25 AM,,2,0,0,0,0,0
+2025-01-04 10:11:49,Secaucus Upper,New York,NJCL,7224,11:29 AM,,2,3,0,0,0,10
+2025-01-04 10:11:49,Secaucus Upper,New York,NEC,7826,11:33 AM,,2,0,0,0,0,0
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,BERG,1858,10:16 AM,,F,3,0,0,0,3
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,PASC,2106,10:22 AM,,F,3,0,0,0,3
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,MAIN,1710,11:07 AM,,E,2,0,0,0,2
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,PASC,2108,11:08 AM,,F,2,0,0,0,2
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,BERG,74,11:12 AM,,F,3,0,0,0,4
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,MAIN,1712,12:07 PM,,E,0,0,0,0,0
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,BERG,1862,12:16 PM,,F,0,0,0,0,0
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,PASC,2110,12:22 PM,,F,0,0,0,0,0
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,MAIN,1714,1:07 PM,,E,0,0,0,0,0
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,PASC,2112,1:09 PM,,F,0,0,0,0,0
+2025-01-04 10:11:50,Secaucus Lower,Hoboken,BERG,76,1:12 PM,,F,0,0,0,0,0
+2025-01-04 10:11:52,Newark,New York -SEC,NEC,7820,10:14 AM,,1,3,0,0,0,7
+2025-01-04 10:11:52,Newark,New York -SEC,NJCL,7220,10:22 AM,,1,3,0,0,0,3
+2025-01-04 10:11:52,Newark,New York -SEC,NEC,7822,10:24 AM,,1,3,0,0,0,7
+2025-01-04 10:11:52,Newark,New York,AMTK,A660,10:31 AM,,2,0,0,0,0,0
+2025-01-04 10:11:52,Newark,New York -SEC,NJCL,7624,11:07 AM,,1,0,0,0,0,0
+2025-01-04 10:11:52,Newark,New York -SEC,NEC,7824,11:12 AM,,1,3,0,0,0,6
+2025-01-04 10:11:52,Newark,New York -SEC,NJCL,7224,11:22 AM,,1,3,0,0,0,10
+2025-01-04 10:11:52,Newark,New York -SEC,NEC,7826,11:26 AM,,1,0,0,0,0,0
+2025-01-04 10:11:53,Watsessing,Hoboken,MOBO,518,11:07 AM,,2,0,0,0,0,0
+2025-01-04 10:11:53,Watsessing,Hoboken,MOBO,522,1:07 PM,,2,0,0,0,0,0
+2025-01-04 10:11:53,Watsessing,Hoboken,MOBO,526,3:07 PM,,2,0,0,0,0,0
+2025-01-04 10:11:53,Watsessing,Hoboken,MOBO,530,5:07 PM,,2,0,0,0,0,0
+2025-01-04 10:11:53,Watsessing,Hoboken,MOBO,534,7:07 PM,,2,0,0,0,0,0
+2025-01-04 10:11:53,Watsessing,Hoboken,MOBO,538,9:07 PM,,2,0,0,0,0,0
+2025-01-04 10:11:53,Watsessing,Hoboken,MOBO,544,12:08 AM,,2,0,0,0,0,0
+2025-01-04 10:11:55,Maplewood,New York -SEC,M&E,6918,10:54 AM,,2,0,0,0,0,0
+2025-01-04 10:11:55,Maplewood,New York -SEC,M&E,6920,11:54 AM,,2,0,0,0,0,0
+2025-01-04 10:11:55,Maplewood,New York -SEC,M&E,6922,12:54 PM,,2,0,0,0,0,0
+2025-01-04 10:11:55,Maplewood,New York -SEC,M&E,6924,1:54 PM,,2,0,0,0,0,0
+2025-01-04 10:11:55,Maplewood,New York -SEC,M&E,6926,2:54 PM,,2,0,0,0,0,0
+2025-01-04 10:11:55,Maplewood,New York -SEC,M&E,6928,3:54 PM,,2,0,0,0,0,0
+2025-01-04 10:11:55,Maplewood,New York -SEC,M&E,6930,4:54 PM,,2,0,0,0,0,0
+2025-01-04 10:11:55,Maplewood,New York -SEC,M&E,6932,5:54 PM,,2,0,0,0,0,0
+2025-01-04 10:11:55,Maplewood,New York -SEC,M&E,6934,6:54 PM,,2,0,0,0,0,0
