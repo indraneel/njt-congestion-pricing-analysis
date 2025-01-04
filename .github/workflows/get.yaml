@@ -24,8 +24,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4 pandas pytz
     
-    - name: Run scraper
-      run: python scraper.py
+    - name: Run collect
+      run: python collect.py
     
     - name: Configure Git
       run: |
