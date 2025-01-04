@@ -16,8 +16,8 @@ class NJTransitScraper:
         'maplewood': 'https://www.njtransit.com/dv-to/Maplewood%20Station'
     }
 
-    def __init__(self, destination_filter: str = None):
-        self.destination_filter = destination_filter
+    def __init__(self, destination_filters: List[str] = None):
+        self.destination_filters = destination_filters or ['New York', 'Hoboken']
         self.eastern_tz = pytz.timezone('America/New_York')
 
     def get_current_file_date(self) -> str:
@@ -72,7 +72,7 @@ class NJTransitScraper:
                 try:
                     destination = item.find('strong', {'data-v-403a649a': True}).text.strip()
                     
-                    if self.destination_filter and self.destination_filter.lower() not in destination.lower():
+                    if not any(dest.lower() in destination.lower() for dest in self.destination_filters):
                         continue
                     
                     # Get line (e.g., NEC, MOBO)
@@ -159,10 +159,11 @@ class NJTransitScraper:
 
 def main():
     parser = argparse.ArgumentParser(description='NJ Transit DepartureVision Scraper')
-    parser.add_argument('--destination', type=str, help='Filter by destination')
+    parser.add_argument('--destinations', type=str, nargs='*', help='Filter by destinations (comma-separated list)')
     args = parser.parse_args()
     
-    scraper = NJTransitScraper(destination_filter=args.destination)
+    destination_filters = args.destinations if args.destinations else None
+    scraper = NJTransitScraper(destination_filters=destination_filters)
     scraper.run()
 
 if __name__ == '__main__':

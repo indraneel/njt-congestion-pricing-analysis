@@ -33,7 +33,7 @@ jobs:
       run: mkdir -p departures
 
     - name: Run scraper
-      run: python scraper.py
+      run: python scraper.py --destinations "New York" "Hoboken"
 
     - name: Configure Git Authentication
       run: |
