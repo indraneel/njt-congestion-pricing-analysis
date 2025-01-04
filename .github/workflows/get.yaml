@@ -6,6 +6,10 @@ permissions:
 on:
  schedule:
    - cron: '*/1 * * * *'
+# if needed, schedule based on GTFS
+#    - cron: '*/1 6-10,15-19 * * *'  # Peak: every min
+#    - cron: '*/3 4-6,10-15,19-22 * * *'  # Regular: every 3 min
+#    - cron: '*/7 22-4 * * *'  # Night: every 7 min
  workflow_dispatch:
 
 jobs:
