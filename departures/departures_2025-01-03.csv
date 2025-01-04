@@ -190,3 +190,65 @@ timestamp,station,destination,line,train_number,departure_time,status,track,car_
 2025-01-03 22:50:05,Maplewood,Dover,M&E,6683,12:39 AM,,3,0,0,0,0,0
 2025-01-03 22:50:05,Maplewood,Hoboken,M&E,442,12:48 AM,,2,0,0,0,0,0
 2025-01-03 22:50:05,Maplewood,Dover,M&E,6601,1:35 AM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,New York,MOBO,6278,11:03 PM,,2,3,0,0,0,3
+2025-01-03 23:00:20,Secaucus Upper,Dover,M&E,6679,11:05 PM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,Trenton ✈,NEC,3895,11:16 PM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,New York,NEC,3886,11:22 PM,,2,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,Long Branch ✈,NJCL,3297,11:28 PM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,New York,NJCL,3288,11:49 PM,,2,2,0,0,0,2
+2025-01-03 23:00:20,Secaucus Upper,MSU,MOBO,6299,11:51 PM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,New York,MOBO,6280,11:51 PM,,2,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,Dover,M&E,6683,12:11 AM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,Long Branch ✈,NJCL,7201,12:14 AM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,New York,NEC,3742,12:19 AM,,2,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,Trenton ✈,NEC,3897,12:23 AM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,New York,NEC,3888,12:42 AM,,2,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,MSU,MOBO,6201,12:43 AM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,Trenton ✈,NEC,7801,12:52 AM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,New York,NJCL,3292,12:58 AM,,2,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,Dover,M&E,6601,1:05 AM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,Long Branch ✈,NJCL,7205,1:09 AM,,3,0,0,0,0,0
+2025-01-03 23:00:20,Secaucus Upper,New York,NEC,3892,1:18 AM,,2,0,0,0,0,0
+2025-01-03 23:00:22,Secaucus Lower,Hoboken,BERG,1186,11:03 PM,,G,2,0,0,0,2
+2025-01-03 23:00:22,Secaucus Lower,Suffern,MAIN,1131,11:06 PM,,F,3,0,0,0,3
+2025-01-03 23:00:22,Secaucus Lower,Spring Valley,PASC,1647,11:23 PM,,H,0,0,0,0,0
+2025-01-03 23:00:22,Secaucus Lower,Suffern,BERG,1183,11:28 PM,,H,0,0,0,0,0
+2025-01-03 23:00:22,Secaucus Lower,Hoboken,BERG,68,11:37 PM,,G,2,0,0,0,2
+2025-01-03 23:00:22,Secaucus Lower,Hoboken,MAIN,1234,12:18 AM,,E,0,0,0,0,0
+2025-01-03 23:00:22,Secaucus Lower,Suffern,MAIN,1133,12:19 AM,,F,0,0,0,0,0
+2025-01-03 23:00:22,Secaucus Lower,Port Jervis,BERG,69,12:50 AM,,F,0,0,0,0,0
+2025-01-03 23:00:22,Secaucus Lower,Spring Valley,PASC,2101,12:55 AM,,H,0,0,0,0,0
+2025-01-03 23:00:22,Secaucus Lower,Hoboken,PASC,1636,1:07 AM,,G,0,0,0,0,0
+2025-01-03 23:00:22,Secaucus Lower,Suffern,MAIN,1701,1:43 AM,,F,0,0,0,0,0
+2025-01-03 23:00:23,Newark,High Bridge,RARV,5197,11:08 PM,,4,3,0,0,0,4
+2025-01-03 23:00:23,Newark,New York -SEC,NEC,3886,11:15 PM,,1,0,0,0,0,0
+2025-01-03 23:00:23,Newark,Trenton ✈,NEC,3895,11:24 PM,,4,0,0,0,0,0
+2025-01-03 23:00:23,Newark,New York,AMTK,A186,11:30 PM,,2,0,0,0,0,0
+2025-01-03 23:00:23,Newark,New York,AMTK,A2130,11:34 PM,,2,0,0,0,0,0
+2025-01-03 23:00:23,Newark,Long Branch ✈,NJCL,3297,11:36 PM,,4,0,0,0,0,0
+2025-01-03 23:00:23,Newark,Newport News,AMTK,A65,11:40 PM,,3,0,0,0,0,0
+2025-01-03 23:00:23,Newark,New York -SEC,NJCL,3288,11:42 PM,,1,2,0,0,0,2
+2025-01-03 23:00:23,Newark,New York -SEC,NEC,3742,12:11 AM,,1,0,0,0,0,0
+2025-01-03 23:00:23,Newark,New York,AMTK,A624,12:17 AM,,2,0,0,0,0,0
+2025-01-03 23:00:23,Newark,Long Branch ✈,NJCL,7201,12:22 AM,,4,0,0,0,0,0
+2025-01-03 23:00:23,Newark,New York,AMTK,A198,12:26 AM,,2,0,0,0,0,0
+2025-01-03 23:00:23,Newark,Philadelphia,AMTK,A179,12:28 AM,,3,0,0,0,0,0
+2025-01-03 23:00:23,Newark,Raritan,RARV,5401,12:29 AM,,5,0,0,0,0,0
+2025-01-03 23:00:23,Newark,Trenton ✈,NEC,3897,12:32 AM,,4,0,0,0,0,0
+2025-01-03 23:00:23,Newark,New York -SEC,NEC,3888,12:35 AM,,1,0,0,0,0,0
+2025-01-03 23:00:23,Newark,New York -SEC,NJCL,3292,12:51 AM,,1,0,0,0,0,0
+2025-01-03 23:00:23,Newark,Trenton ✈,NEC,7801,1:01 AM,,4,0,0,0,0,0
+2025-01-03 23:00:23,Newark,New York -SEC,NEC,3892,1:11 AM,,1,0,0,0,0,0
+2025-01-03 23:00:25,Watsessing,MSU,MOBO,6297,11:07 PM,,1,2,0,0,0,2
+2025-01-03 23:00:25,Watsessing,New York -SEC,MOBO,6280,11:33 PM,,2,0,0,0,0,0
+2025-01-03 23:00:25,Watsessing,MSU,MOBO,6299,12:07 AM,,1,0,0,0,0,0
+2025-01-03 23:00:25,Watsessing,MSU,MOBO,6201,12:59 AM,,1,0,0,0,0,0
+2025-01-03 23:00:28,Maplewood,Dover,M&E,6677,10:53 PM,,3,3,0,0,0,9
+2025-01-03 23:00:28,Maplewood,Hoboken,M&E,682,11:16 PM,,2,2,0,0,0,2
+2025-01-03 23:00:28,Maplewood,Gladstone,M&E,451,11:25 PM,,3,3,0,0,0,4
+2025-01-03 23:00:28,Maplewood,Dover,M&E,6679,11:33 PM,,3,0,0,0,0,0
+2025-01-03 23:00:28,Maplewood,Hoboken,M&E,440,11:45 PM,,2,0,0,0,0,0
+2025-01-03 23:00:28,Maplewood,Gladstone,M&E,453,12:32 AM,,3,0,0,0,0,0
+2025-01-03 23:00:28,Maplewood,Dover,M&E,6683,12:39 AM,,3,0,0,0,0,0
+2025-01-03 23:00:28,Maplewood,Hoboken,M&E,442,12:48 AM,,2,0,0,0,0,0
+2025-01-03 23:00:28,Maplewood,Dover,M&E,6601,1:35 AM,,3,0,0,0,0,0
