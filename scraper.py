@@ -131,7 +131,11 @@ class NJTransitScraper:
             return
 
         date = self.get_current_file_date()
-        filename = f'departures_{date}.csv'
+        directory = os.path.dirname(date)  # Get the directory part of the path
+        filename = os.path.join(directory, f'departures_{os.path.basename(date)}.csv')
+        
+        # Ensure the directory exists
+        os.makedirs(directory, exist_ok=True)
         
         df = pd.DataFrame(departures)
         
@@ -140,6 +144,7 @@ class NJTransitScraper:
             df.to_csv(filename, mode='a', header=False, index=False)
         else:
             df.to_csv(filename, index=False)
+
 
     def run(self):
         """Run the scraper for all stations"""
