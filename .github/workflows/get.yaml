@@ -6,8 +6,8 @@ permissions:
 on:
   schedule:
     - cron: '*/1 6-10,15-19 * * *'    # Peak: every min
-    - cron: '*/3 4-6,10-15,19-22 * * *'  # Regular: every 3 min
-    - cron: '*/7 22-23,0-4 * * *'     # Night: every 7 min
+    - cron: '*/3 4-6,10-15,19-1 * * *'  # Regular: every 3 min
+    - cron: '*/7 1-4,22-23 * * *'     # Night: every 7 min
   workflow_dispatch: {}
 
 jobs:
