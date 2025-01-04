@@ -24,7 +24,7 @@ class NJTransitScraper:
         if now.hour < 4:
             # If it's before 4am, use previous day's date
             now = now - datetime.timedelta(days=1)
-        return now.strftime('%Y-%m-%d')
+        return os.path.join('departures', now.strftime('%Y-%m-%d'))
 
     def parse_occupancy(self, item) -> Dict:
         """Parse occupancy information for each train car section"""
