@@ -426,3 +426,26 @@ timestamp,station,destination,line,train_number,departure_time,status,track,car_
 2025-01-03 23:48:45,Newark,New York,AMTK,A..98,10:58 AM,,,0,0,0,0,0
 2025-01-03 23:48:49,Maplewood,Hoboken,M&E,440,11:45 PM,,2,2,0,0,0,2
 2025-01-03 23:48:49,Maplewood,Hoboken,M&E,442,12:48 AM,,2,0,0,0,0,0
+2025-01-03 23:57:36,Secaucus Upper,New York,NEC,3742,12:19 AM,,2,0,0,0,0,0
+2025-01-03 23:57:36,Secaucus Upper,New York,NEC,3888,12:42 AM,,2,2,0,0,0,2
+2025-01-03 23:57:36,Secaucus Upper,New York,NJCL,3292,12:58 AM,,2,0,0,0,0,0
+2025-01-03 23:57:36,Secaucus Upper,New York,NEC,3892,1:18 AM,,2,0,0,0,0,0
+2025-01-03 23:57:36,Secaucus Upper,New York,NJCL,7200,1:42 AM,,2,0,0,0,0,0
+2025-01-03 23:57:36,Secaucus Upper,New York,NEC,7800,1:47 AM,,2,0,0,0,0,0
+2025-01-03 23:57:36,Secaucus Upper,New York,NEC,3882,10:28 PM,,2,3,0,0,0,4
+2025-01-03 23:57:36,Secaucus Upper,New York,NEC,.3886,11:22 PM,,2,0,0,0,0,0
+2025-01-03 23:57:36,Secaucus Upper,New York,NEC,3886,11:22 PM,,2,0,0,0,0,0
+2025-01-03 23:57:36,Secaucus Upper,New York,NEC,.0086,11:23 PM,,2,0,0,0,0,0
+2025-01-03 23:57:38,Secaucus Lower,Hoboken,MAIN,1234,12:18 AM,,E,0,0,0,0,0
+2025-01-03 23:57:38,Secaucus Lower,Hoboken,PASC,1636,1:07 AM,,G,0,0,0,0,0
+2025-01-03 23:57:39,Newark,New York -SEC,NEC,3742,12:11 AM,,1,0,0,0,0,0
+2025-01-03 23:57:39,Newark,New York,AMTK,A624,12:17 AM,,2,0,0,0,0,0
+2025-01-03 23:57:39,Newark,New York,AMTK,A198,12:26 AM,,2,0,0,0,0,0
+2025-01-03 23:57:39,Newark,New York -SEC,NEC,3888,12:35 AM,,1,2,0,0,0,2
+2025-01-03 23:57:39,Newark,New York -SEC,NJCL,3292,12:51 AM,,1,0,0,0,0,0
+2025-01-03 23:57:39,Newark,New York -SEC,NEC,3892,1:11 AM,,1,0,0,0,0,0
+2025-01-03 23:57:39,Newark,New York -SEC,NJCL,7200,1:34 AM,,1,0,0,0,0,0
+2025-01-03 23:57:39,Newark,New York -SEC,NEC,7800,1:40 AM,,1,0,0,0,0,0
+2025-01-03 23:57:39,Newark,New York,AMTK,A..98,10:58 AM,,,0,0,0,0,0
+2025-01-03 23:57:39,Newark,New York,AMTK,A.98,10:58 AM,,,0,0,0,0,0
+2025-01-03 23:57:43,Maplewood,Hoboken,M&E,442,12:48 AM,,2,0,0,0,0,0
