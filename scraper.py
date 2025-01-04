@@ -11,7 +11,9 @@ class NJTransitScraper:
     URLS = {
         'secaucus_upper': 'https://www.njtransit.com/dv-to/Secaucus%20Junction%20Upper%20Level',
         'secaucus_lower': 'https://www.njtransit.com/dv-to/Secaucus%20Junction%20Lower%20Level',
-        'newark': 'https://www.njtransit.com/dv-to/Newark%20Penn%20Station'
+        'newark': 'https://www.njtransit.com/dv-to/Newark%20Penn%20Station',
+        'watsessing': 'https://www.njtransit.com/dv-to/Watsessing%20Avenue%20Station',
+        'maplewood': 'https://www.njtransit.com/dv-to/Maplewood%20Station'
     }
 
     def __init__(self, destination_filter: str = None):
