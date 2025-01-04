@@ -1,51 +1,51 @@
 name: NJ Transit Departure Scraper
 
 permissions:
- contents: write
+  contents: write
 
 on:
   schedule:
     - cron: '*/1 6-10,15-19 * * *'    # Peak: every min
     - cron: '*/3 4-6,10-15,19-22 * * *'  # Regular: every 3 min
     - cron: '*/7 22-23,0-4 * * *'     # Night: every 7 min
- workflow_dispatch:
+  workflow_dispatch: {}
 
 jobs:
- scrape:
-   runs-on: ubuntu-latest
-   
-   steps:
-   - uses: actions/checkout@v2
-     with:
-       fetch-depth: 0
-   
-   - name: Set up Python
-     uses: actions/setup-python@v2
-     with:
-       python-version: '3.x'
-   
-   - name: Install dependencies
-     run: |
-       python -m pip install --upgrade pip
-       pip install requests beautifulsoup4 pandas pytz
-   
-   - name: Create directory
-     run: mkdir -p departures
-   
-   - name: Run scraper
-     run: python scraper.py
-   
-   - name: Configure Git Authentication
-     run: |
-       git config --global user.name "GitHub Action"
-       git config --global user.email "action@github.com"
-       git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-   
-   - name: Pull
-     run: |
-       git pull
+  scrape:
+    runs-on: ubuntu-latest
 
-   - name: Commit and push if changes
-     run: |
-       git add .
-       git diff --quiet && git diff --staged --quiet || (git commit -m "Update departure data [skip ci]" && git push)
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 pandas pytz
+
+    - name: Create directory
+      run: mkdir -p departures
+
+    - name: Run scraper
+      run: python scraper.py
+
+    - name: Configure Git Authentication
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+    - name: Pull
+      run: |
+        git pull
+
+    - name: Commit and push if changes
+      run: |
+        git add .
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update departure data [skip ci]" && git push)
