@@ -252,3 +252,28 @@ timestamp,station,destination,line,train_number,departure_time,status,track,car_
 2025-01-03 23:00:28,Maplewood,Dover,M&E,6683,12:39 AM,,3,0,0,0,0,0
 2025-01-03 23:00:28,Maplewood,Hoboken,M&E,442,12:48 AM,,2,0,0,0,0,0
 2025-01-03 23:00:28,Maplewood,Dover,M&E,6601,1:35 AM,,3,0,0,0,0,0
+2025-01-03 23:06:36,Secaucus Upper,New York,MOBO,6278,11:03 PM,,2,3,0,0,0,3
+2025-01-03 23:06:36,Secaucus Upper,New York,NEC,3886,11:22 PM,,2,0,0,0,0,0
+2025-01-03 23:06:36,Secaucus Upper,New York,NJCL,3288,11:49 PM,,2,2,0,0,0,2
+2025-01-03 23:06:36,Secaucus Upper,New York,MOBO,6280,11:51 PM,,2,0,0,0,0,0
+2025-01-03 23:06:36,Secaucus Upper,New York,NEC,3742,12:19 AM,,2,0,0,0,0,0
+2025-01-03 23:06:36,Secaucus Upper,New York,NEC,3888,12:42 AM,,2,0,0,0,0,0
+2025-01-03 23:06:36,Secaucus Upper,New York,NJCL,3292,12:58 AM,,2,0,0,0,0,0
+2025-01-03 23:06:36,Secaucus Upper,New York,NEC,3892,1:18 AM,,2,0,0,0,0,0
+2025-01-03 23:06:38,Secaucus Lower,Hoboken,BERG,68,11:37 PM,,G,3,0,0,0,3
+2025-01-03 23:06:38,Secaucus Lower,Hoboken,MAIN,1234,12:18 AM,,E,0,0,0,0,0
+2025-01-03 23:06:38,Secaucus Lower,Hoboken,PASC,1636,1:07 AM,,G,0,0,0,0,0
+2025-01-03 23:06:39,Newark,New York -SEC,NEC,3886,11:15 PM,,1,0,0,0,0,0
+2025-01-03 23:06:39,Newark,New York,AMTK,A186,11:30 PM,,2,0,0,0,0,0
+2025-01-03 23:06:39,Newark,New York,AMTK,A2130,11:34 PM,,2,0,0,0,0,0
+2025-01-03 23:06:39,Newark,New York -SEC,NJCL,3288,11:42 PM,,1,2,0,0,0,2
+2025-01-03 23:06:39,Newark,New York -SEC,NEC,3742,12:11 AM,,1,0,0,0,0,0
+2025-01-03 23:06:39,Newark,New York,AMTK,A624,12:17 AM,,2,0,0,0,0,0
+2025-01-03 23:06:39,Newark,New York,AMTK,A198,12:26 AM,,2,0,0,0,0,0
+2025-01-03 23:06:39,Newark,New York -SEC,NEC,3888,12:35 AM,,1,0,0,0,0,0
+2025-01-03 23:06:39,Newark,New York -SEC,NJCL,3292,12:51 AM,,1,0,0,0,0,0
+2025-01-03 23:06:39,Newark,New York -SEC,NEC,3892,1:11 AM,,1,0,0,0,0,0
+2025-01-03 23:06:41,Watsessing,New York -SEC,MOBO,6280,11:33 PM,,2,0,0,0,0,0
+2025-01-03 23:06:43,Maplewood,Hoboken,M&E,682,11:16 PM,,2,2,0,0,0,2
+2025-01-03 23:06:43,Maplewood,Hoboken,M&E,440,11:45 PM,,2,2,0,0,0,2
+2025-01-03 23:06:43,Maplewood,Hoboken,M&E,442,12:48 AM,,2,0,0,0,0,0
