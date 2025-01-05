@@ -3971,3 +3971,27 @@ timestamp,station,destination,line,train_number,departure_time,status,track,car_
 2025-01-04 23:43:51,Newark,New York,AMTK,A600,10:56 AM,,2,0,0,0,0,0
 2025-01-04 23:43:54,Watsessing,Hoboken,MOBO,544,12:08 AM,,2,0,0,0,0,0
 2025-01-04 23:43:55,Maplewood,New York -SEC,M&E,6944,11:54 PM,,2,0,0,0,0,0
+2025-01-04 23:48:21,Secaucus Upper,New York,NEC,7876,12:19 AM,,B,3,0,0,0,4
+2025-01-04 23:48:21,Secaucus Upper,New York,M&E,6944,12:25 AM,,B,0,0,0,0,0
+2025-01-04 23:48:21,Secaucus Upper,New York,NJCL,7276,12:58 AM,,B,0,0,0,0,0
+2025-01-04 23:48:21,Secaucus Upper,New York,NEC,7880,1:18 AM,,B,0,0,0,0,0
+2025-01-04 23:48:21,Secaucus Upper,New York,NJCL,7200,1:42 AM,,B,0,0,0,0,0
+2025-01-04 23:48:21,Secaucus Upper,New York,NEC,7800,1:47 AM,,B,0,0,0,0,0
+2025-01-04 23:48:21,Secaucus Upper,New York,NEC,3882,10:28 PM,,2,0,0,0,0,0
+2025-01-04 23:48:21,Secaucus Upper,New York,NEC,.3886,11:22 PM,,2,0,0,0,0,0
+2025-01-04 23:48:21,Secaucus Upper,New York,NEC,3886,11:22 PM,,2,0,0,0,0,0
+2025-01-04 23:48:21,Secaucus Upper,New York,NEC,.0086,11:23 PM,,2,0,0,0,0,0
+2025-01-04 23:48:22,Secaucus Lower,Hoboken,BERG,1786,1:09 AM,,G,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York -SEC,NEC,7876,12:12 AM,,1,3,0,0,0,4
+2025-01-04 23:48:24,Newark,New York,AMTK,A128,12:16 AM,,2,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York -SEC,NJCL,7276,12:51 AM,,1,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York -SEC,NEC,7880,1:11 AM,,1,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York -SEC,NJCL,7200,1:34 AM,,1,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York -SEC,NEC,7800,1:40 AM,,1,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York,AMTK,A..98,10:58 AM,,,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York,AMTK,A.98,10:58 AM,,,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York,AMTK,A..90,11:03 PM,,2,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York,AMTK,A.90,11:03 PM,,2,0,0,0,0,0
+2025-01-04 23:48:24,Newark,New York,AMTK,A600,10:56 AM,,2,0,0,0,0,0
+2025-01-04 23:48:26,Watsessing,Hoboken,MOBO,544,12:08 AM,,2,0,0,0,0,0
+2025-01-04 23:48:28,Maplewood,New York -SEC,M&E,6944,11:54 PM,,2,0,0,0,0,0
