@@ -40,10 +40,7 @@ class NJTransitScraper:
 
         occupancy_section = item.find('ol', {'data-v-5d9f6349': True, 'class': 'list-inline d-inline-block align-self-end m-0 cur--pointer'})
         if not occupancy_section:
-            return occupancy_info, ''
-
-        # Store raw HTML for the occupancy section
-        raw_occupancy_html = str(occupancy_section)
+            return occupancy_info
 
         sections = occupancy_section.find_all('li', {'data-v-b5fd45da': True})
         occupancy_info['total_sections'] = len(sections)
@@ -61,7 +58,7 @@ class NJTransitScraper:
                 else:  # Grey or any other color = No data
                     occupancy_info['no_data'] += 1
 
-        return occupancy_info, raw_occupancy_html
+        return occupancy_info
 
     def scrape_departures(self, url: str, station: str) -> List[Dict]:
         """Scrape departure information from a single URL"""
@@ -98,7 +95,7 @@ class NJTransitScraper:
                     track = track_text.strip().replace('Track', '').strip() if track_text else ''
                     
                     # Get occupancy information
-                    occupancy, raw_occupancy_html = self.parse_occupancy(item)
+                    occupancy = self.parse_occupancy(item)
                     
                     timestamp = datetime.datetime.now(self.eastern_tz).strftime('%Y-%m-%d %H:%M:%S')
                     
@@ -115,8 +112,7 @@ class NJTransitScraper:
                         'occupancy_light': occupancy['light'],
                         'occupancy_medium': occupancy['medium'],
                         'occupancy_heavy': occupancy['heavy'],
-                        'occupancy_no_data': occupancy['no_data'],
-                        'raw_occupancy_html': raw_occupancy_html
+                        'occupancy_no_data': occupancy['no_data']
                     })
                     
                 except Exception as e:
