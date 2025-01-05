@@ -40,7 +40,10 @@ class NJTransitScraper:
 
         occupancy_section = item.find('ol', {'data-v-5d9f6349': True, 'class': 'list-inline d-inline-block align-self-end m-0 cur--pointer'})
         if not occupancy_section:
-            return occupancy_info
+            return occupancy_info, ''
+
+        # Store raw HTML for the occupancy section
+        raw_occupancy_html = str(occupancy_section)
 
         sections = occupancy_section.find_all('li', {'data-v-b5fd45da': True})
         occupancy_info['total_sections'] = len(sections)
@@ -49,16 +52,16 @@ class NJTransitScraper:
             dots = section.find_all('li', {'data-v-8927eb98': True})
             for dot in dots:
                 style = dot.get('style', '')
-                if 'background-color: rgb(11, 102, 35)' in style:  # Light
+                if 'background-color: rgb(11, 102, 35)' in style:  # Green = Light
                     occupancy_info['light'] += 1
-                elif 'background-color: rgb(255, 193, 7)' in style:  # Medium 
+                elif 'background-color: rgb(255, 211, 0)' in style:  # Yellow = Medium
                     occupancy_info['medium'] += 1
-                elif 'background-color: rgb(220, 53, 69)' in style:  # Heavy
+                elif 'background-color: rgb(255, 0, 0)' in style:  # Red = Heavy
                     occupancy_info['heavy'] += 1
-                else:
+                else:  # Grey or any other color = No data
                     occupancy_info['no_data'] += 1
 
-        return occupancy_info
+        return occupancy_info, raw_occupancy_html
 
     def scrape_departures(self, url: str, station: str) -> List[Dict]:
         """Scrape departure information from a single URL"""
@@ -95,7 +98,7 @@ class NJTransitScraper:
                     track = track_text.strip().replace('Track', '').strip() if track_text else ''
                     
                     # Get occupancy information
-                    occupancy = self.parse_occupancy(item)
+                    occupancy, raw_occupancy_html = self.parse_occupancy(item)
                     
                     timestamp = datetime.datetime.now(self.eastern_tz).strftime('%Y-%m-%d %H:%M:%S')
                     
@@ -112,7 +115,8 @@ class NJTransitScraper:
                         'occupancy_light': occupancy['light'],
                         'occupancy_medium': occupancy['medium'],
                         'occupancy_heavy': occupancy['heavy'],
-                        'occupancy_no_data': occupancy['no_data']
+                        'occupancy_no_data': occupancy['no_data'],
+                        'raw_occupancy_html': raw_occupancy_html
                     })
                     
                 except Exception as e:
